@@ -6,7 +6,7 @@ blockchain wallet or smart contract addresses to an existing public domain names
 
 ## SETUP GUIDE
 
-The main goal is to provide secure and anonymous features to link and retreive your custom blockchain addresses based on public domain name you own. That will allow you to use short and user friendly names that could be found by everyone 
+The main goal is to provide secure and anonymous features to link and retrieve your custom blockchain addresses based on public domain name you own. That will allow you to use short and user friendly names that could be found by everyone 
 throught the simple validation procedure.
 
 ### STEPS
@@ -114,12 +114,14 @@ Same via curl:
 
 ```curl
 curl -H 'accept: application/dns-json' 'https://cloudflare-dns.com/dns-query?name=bans.xvg.0.kxp.one&type=TXT'
+or
+curl -H 'accept: application/dns-json' 'https://dns4torpnlfs2ifuz2s2yf3fc7rdmsbhm6rw75euj35pac6ap25zgqad.onion/dns-query?name=bans.xvg.0.kxp.one&type=TXT'
 
 output:
 {"Status": 0,"TC": false,"RD": true, "RA": true, "AD": false,"CD": false,"Question":[{"name": "bans.xvg.0.kxp.one.", "type": 16}],"Answer":[{"name": "bans.xvg.0.kxp.one.", "type": 16, "TTL": 300, "data": "\"DCfgkLJXMMAjcnKxTuw3CaTqNmgT7mwc5T\""}]}
 ```
 
-To provide another layer of security you could also perform your request with using __do__ field to get DNSSEC feature.
+To provide another layer of security you could also perform your request using __do__ field to get DNSSEC feature.
 For more info, please visit: https://developers.cloudflare.com/1.1.1.1/dns-over-https/json-format/
 
 #### 4. Result demo

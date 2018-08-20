@@ -50,7 +50,7 @@ value: 1A8BS8UTKq7PMunsHKFPgzHq122gZ3vkqS
 ```
 Same Cloudflare record should looks like:
 
-__TODO: Image here__
+![demo](https://github.com/hellc/bans/blob/master/demo/dns_Record.png)
 
 #### 3. Retrieve your DNS record on client
 
@@ -126,4 +126,4 @@ For more info, please visit: https://developers.cloudflare.com/1.1.1.1/dns-over-
 
 #### 4. Result demo
 
-__TODO: GIF Image here__
+![demo](https://github.com/hellc/bans/blob/master/demo/bans.gif)

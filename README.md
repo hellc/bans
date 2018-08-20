@@ -4,6 +4,8 @@
 The purpose of this method is to provide ability to link
 blockchain wallet or smart contract addresses with existing public domain names.
 
+![demo](https://github.com/hellc/bans/blob/master/demo/bans.gif)
+
 ## SETUP GUIDE
 
 The main goal is to provide secured and anonymous features to link and retrieve your custom blockchain address based on public domain name you own. That will allow you to use short and user friendly names that could be found by everyone 
@@ -123,7 +125,3 @@ output:
 
 To provide additional layer of security - perform your request using __DO__ field to get DNSSEC feature.
 For more info, please visit: https://developers.cloudflare.com/1.1.1.1/dns-over-https/json-format/
-
-#### 4. Demo
-
-![demo](https://github.com/hellc/bans/blob/master/demo/bans.gif)

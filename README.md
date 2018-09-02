@@ -1,5 +1,5 @@
-# BANS (Blockchain Address Name Service)
-### DNS based Blockchain Address retrieval method
+# Simple BANS (Blockchain Address Name Service)
+### DNS based Simple Blockchain Address retrieval method
 
 The purpose of this method is to provide ability to link
 blockchain wallet or smart contract addresses with existing public domain names.

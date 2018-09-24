@@ -25,9 +25,9 @@ Cloudflare as well provide TOR based DNS services. Check: https://blog.cloudflar
 There are no specification on bans record format, however we are suggest you to follow:
 
 ```
-DNS TXT
+DNS record
 type: TXT
-name: bans.<token code>.<same code address number>
+name: bans.<token code>.<code address seq. number>
 value: <your blockchain address>
 ```
 For example: 
@@ -50,7 +50,7 @@ value: 1A8BS8UTKq7PMunsHKFPgzHq122gZ3vkqS
 
 ...
 ```
-Same Cloudflare record should looks like:
+Result Cloudflare record should looks like:
 
 ![demo](https://github.com/hellc/bans/blob/master/demo/dns_Record.png)
 
